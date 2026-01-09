@@ -1,0 +1,55 @@
+html{
+    background-color: hsl(255, 20%, 92.16%);
+}
+.banner{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    margin: 0;
+}
+
+.banner li{
+    list-style: none;
+    padding: 50px 70px;
+    font-size: 1.5em;
+}
+
+.banner ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-section{
+    background-image: url(https://data.chinahighlights.es/spic/2021813-1628838821428.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h1 {
+    margin-bottom: 150px;
+    font-size: 3em;
+    color:white;
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 15vw;
+}
+
+.hero-buttons button{
+    border-radius: 999px;
+    font-size: 1.25em;
+    padding: 15px 60px; 
+}
+
